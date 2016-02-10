@@ -220,6 +220,7 @@ fieldset[disabled] .btn-xl.active {
 .nav>li{
     display: inline-block !important;
     float: none !important;
+    font-size: 1.5em;
 }
 header {
     text-align: center;
@@ -261,7 +262,7 @@ header {
 @media only screen and (min-width: 450px) {
     .nav-mov{
         position: absolute; 
-        top: 550px;
+        top: 420px;
     }
     .nav-normal{
         width: 100%; 
@@ -388,9 +389,9 @@ section {
     padding: 100px 0
 }
 section h2.section-heading {
-    font-size: 40px;
+    font-size: 50px;
     margin-top: 0;
-    margin-bottom: 15px
+    margin-bottom: 40px
 }
 section h3.section-subheading {
     font-size: 16px;
@@ -402,8 +403,11 @@ section h3.section-subheading {
 }
 @media (min-width: 768px) {
     section {
-        padding: 150px 0
+        padding: 100px 0
     }
+}
+section h3.service-heading {
+    font-size: 40px;
 }
 .service-heading {
     margin: 15px 0;
@@ -841,6 +845,14 @@ body {
     webkit-tap-highlight-color: #fed136
 }
 
+/***************** Category on the index page start **************/
+
+.wedding-index, .chinaware-index, .specialevent-index{
+    margin-bottom: 15px;
+}
+
+/***************** Category on the index page End **************/
+
 /***************** Wedding Category Start ********************/
 
 /*********** Category on the index page start ***************/
@@ -905,4 +917,22 @@ body {
     height: 270px;
 }
 
+.portfolio-caption h4{
+    font-size: 40px;
+}
 /*************** Portfolio End ******/
+
+/******** About Us Start ***********/
+.timeline-heading h3{
+    font-size:40px;
+}
+.timeline-heading h4{
+    font-size: 30px;
+}
+#about, #services{
+    background: url(../img/portfolio/background.png);
+}
+#portfolio, #team{
+    background-image: url(../img/portfolio/background-rotate.png);
+}
+/******** About us End *********/
