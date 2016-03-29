@@ -20,16 +20,22 @@ a:hover,
 a:focus,
 a:active,
 a.active {
-    outline: 0
+    color: #333;
+    outline: 0;
+    text-decoration: none;
 }
 a {
-    color: #fed136
+    outline: 0;
+    color: #333;
+    text-decoration: none;
 }
 a:hover,
 a:focus,
 a:active,
 a.active {
-    color: #fec503
+    outline: 0;
+    color: #333;
+    text-decoration: none;
 }
 h1,
 h2,
@@ -936,3 +942,10 @@ body {
     background-image: url(../img/portfolio/background-rotate.png);
 }
 /******** About us End *********/
+
+/***  Masonry CSS Start ***/
+.grid {
+  margin: 0 auto;
+}
+
+/***  Masonry CSS End ***/

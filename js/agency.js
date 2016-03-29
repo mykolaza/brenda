@@ -24,3 +24,14 @@ $('body').scrollspy({
 $('.navbar-collapse ul li a').click(function() {
     $('.navbar-toggle:visible').click();
 });
+
+// Initializing Masory items
+$('.grid').masonry({
+  // class for item selector
+  itemSelector: '.grid-item',
+  // This will set the width of each item
+  columnWidth: 10,
+  // To center the Images in the parent container
+  fitWidth: true,
+  transitionDuration: '0.8s',
+});
