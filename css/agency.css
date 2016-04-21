@@ -948,4 +948,14 @@ body {
   margin: 0 auto;
 }
 
+.item {
+  width: 600px;
+  float: left;
+}
+
+.item img {
+  display: block;
+  width: 100%;
+}
+
 /***  Masonry CSS End ***/
