@@ -936,10 +936,10 @@ body {
     font-size: 30px;
 }
 #about, #services{
-    background: url(../img/portfolio/background.png);
+    /*background: url(../img/portfolio/background.png);*/
 }
 #portfolio, #team{
-    background-image: url(../img/portfolio/background-rotate.png);
+    /*background-image: url(../img/portfolio/background-rotate.png);*/
 }
 /******** About us End *********/
 
